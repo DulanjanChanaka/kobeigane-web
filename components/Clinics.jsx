@@ -17,7 +17,7 @@ const Clinics = () => {
      
     
                <Link href="/category/bathroomfaucets">
-                <div className='py-3 lg:pt-5 h-[180px] lg:h-[130px] shadow-xl rounded-xl hover:scale-105 ease-in duration-300 backdrop-blur-sm bg-white/70  drop-shadow-md' >
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300' >
                 <div className='grid grid-cols  text-center  justify-center items-center'>
                     <div className='m-auto'>
                         <Image src='/Assets/weight.png' width='94' height='94' alt='/' className='rounded-lg'/>
@@ -29,7 +29,7 @@ const Clinics = () => {
                 </div> 
                 </Link>  
                 <Link href="/category/cabinets">
-                <div className='py-3 lg:pt-5 h-[180px] lg:h-[130px] shadow-xl rounded-xl hover:scale-105 ease-in duration-300 backdrop-blur-sm bg-white/70  drop-shadow-md'>
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols text-center gap-4 justify-center items-center'>
                     <div className='m-auto'>
                         <Image src='/Assets/hospital.png' width={94} height={94} alt='/' className='rounded-lg'/>
@@ -42,7 +42,7 @@ const Clinics = () => {
                 </Link>
     
                 <Link href="/category/mirrors">
-                <div className='py-3 lg:pt-5 h-[180px] lg:h-[130px] shadow-xl rounded-xl hover:scale-105 ease-in duration-300 backdrop-blur-sm bg-white/70  drop-shadow-md'>
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols  text-center gap-4 justify-center items-center'>
                     <div className='m-auto'>
                         <Image src='/Assets/mother.png' width={94} height={94} alt='/' className='rounded-lg'/>
@@ -55,7 +55,7 @@ const Clinics = () => {
                 </Link>
     
                 <Link href="/category/lighting">
-                <div className='py-3 lg:pt-5 h-[180px] lg:h-[130px] shadow-xl rounded-xl hover:scale-105 ease-in duration-300 backdrop-blur-sm bg-white/70  drop-shadow-md'>
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols  text-center gap-4 justify-center items-center'>
                     <div className='m-auto'>
                         <img src='/Assets/moh.png' width={94} height={94} alt='/' className='rounded-lg'/>
@@ -68,7 +68,7 @@ const Clinics = () => {
                 </Link>
     
                 <Link href="/category/tile">
-                <div className='py-3 lg:pt-5 h-[180px] lg:h-[130px] shadow-xl rounded-xl hover:scale-105 ease-in duration-300 backdrop-blur-sm bg-white/70  drop-shadow-md'>
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols  text-center gap-4 justify-center items-center'>
                     <div className='m-auto'>
                         <img src='/Assets/women.png' width={94} height={94} alt='/' className='rounded-lg'/>
@@ -81,7 +81,7 @@ const Clinics = () => {
                 </Link>
     
                 <Link href="/category/towelbar">
-                <div className='py-3 lg:pt-5 h-[180px] lg:h-[130px] shadow-xl rounded-xl hover:scale-105 ease-in duration-300 backdrop-blur-sm bg-white/70  drop-shadow-md'>
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols  text-center gap-4 justify-center items-center'>
                     <div className='m-auto'>
                         <img src='/Assets/thriposha.png' width={94} height={94} alt='/' className='rounded-lg'/>
@@ -94,7 +94,7 @@ const Clinics = () => {
                 </Link>
     
                 <Link href="/category/accessories">
-                <div className='py-3 lg:pt-5 h-[180px] lg:h-[130px] shadow-xl rounded-xl hover:scale-105 ease-in duration-300 backdrop-blur-sm bg-white/70  drop-shadow-md'>
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols text-center  gap-4 justify-center items-center'>
                     <div className='m-auto'>
                         <img src='/Assets/drugs.png'width={94} height={94} alt='/' className='rounded-lg'/>

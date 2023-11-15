@@ -3,26 +3,23 @@ import Image from 'next/image';
 import Headline from './Headline';
 
 const About = () => {
-  return (
-    <>
-     <Headline title='About '/>
+  return  (
+    <div id='about'className='w-full md:h-screen  p-2 flex items-start py-16'>
+        <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
+            <div className='col-span-2 '>
+            <Headline title="About"/>
+                <p className='uppercase text-xl tracking-widest text-[#5651e5]'></p>
+                <h2 className='py-4'></h2>
+                <p className='py-2 text-gray-600'>Is it a dream to build a bathroom? Do you have a headache when thinking  about it? Here is a precious opportunity for all of you. We will make your dream bathroom. We will provide all the accessories according to your idea, 100% reliable and at a very affordable price.  .Get all the quality bathware accessories you need at an affordable price, make your bathroom dream come true...If you love beautiful design in the bathroom and kitchen and recognise the importance of excellent quality, then this is the right website for you. At Samiko Bathware, you will find an abundance of premium products for  bathrooms and kitchens.
 
-    <div className=' p-5 lg:px-[270px] w-full'>
-        <div className=' lg:flex flex-row  w-full   shadow-xl backdrop-blur-sm bg-white/70  drop-shadow-md rounded-lg '>
-            <div className='p-5 flex flex-col justify-center lg:w-3/5'>
-                <p className='text-xs '>DEVISION</p>
-                <h1 className='text-2xl pb-3 font-medium '>KOBEIGANE  MOH</h1>
-                <div className='h-[2px] bg-orange-400 w-[210px]'></div>
-                <p className='  text-base pt-10 pb-5 font-light'> The aim of our organization is to provide financial and administrative services for the development of the Northern Province in Sri Lanka. This website contains valuable information for your awareness, including educational resources and economic development updates. We highly value your feedback, and your contributions are essential for the success of our services and the socio-economic progress we aim to achieve. Please feel free to share your thoughts and contribute to the discussion on the significance of financial and administrative services for the betterment of the community. Your accurate information and meaningful insights are crucial for your understanding and active participation in our services </p>
-                
+
+</p>
             </div>
-            <div className='lg:w-2/5  w-full h-full '>
-                <Image src='/Assets/about.jpg'  width='514' height='220' alt="about" />
+            <div className='w-full  h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
+                <img className='rounded-xl' src='https://images.pexels.com/photos/1457847/pexels-photo-1457847.jpeg' alt="Description of the image" ></img>
             </div>
         </div>
-        
     </div>
-    </>
   )
 }
 
